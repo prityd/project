@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://admin:123@cluster0.yi9f0sk.mongodb.net/")
 
 # Check and create database and collection if not exist
 db_name = "ecommerce"
